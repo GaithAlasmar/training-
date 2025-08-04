@@ -229,3 +229,42 @@ header {
     background-color: var(--sec-color);
     color: var(--bg-color);
 }
+/* ========= RESPONSIVE & BREAKPOINTS ==========*/
+@media (max-width: 1080px) {
+    .nav {
+        padding: 15px;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .shop{
+        margin-top: 2rem;
+    }
+}
+/* For Medium Devices*/
+@media (max-width: 400px) {
+    .nav {
+        padding: 11px;
+    }
+    .logo {
+        font-size: 1rem;
+    }
+    .cart {
+        width: 320px;
+    }
+}
+@media (max-width: 360px) {
+    .shop {
+        margin-top: 1rem;
+    }
+    .logo {
+        font-size: 0.9rem;
+    }
+    .cart {
+        width: 280px;
+    }
+}
